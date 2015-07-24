@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'ejs' ]
+2 info using npm@2.7.3
+3 info using node@v0.12.1
+4 verbose node symlink /usr/local/bin/node
+5 silly cache add args [ 'ejs', null ]
+6 verbose cache add spec ejs
+7 silly cache add parsed spec { raw: 'ejs',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'ejs',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed ejs@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'ejs', range: '*', hasData: false }
+12 silly mapToRegistry name ejs
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/ejs
+16 verbose addNameRange registry:https://registry.npmjs.org/ejs not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/ejs
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 05:42:43
+20 verbose request id dc0271ad4c8b14b6
+21 http request GET https://registry.npmjs.org/ejs
+22 http 200 https://registry.npmjs.org/ejs
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"24XIMZ58Q6L295YCKAPSYD8FB"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '48387',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Fri, 24 Jul 2015 09:42:44 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-atl6220-ATL',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1437730963.955485,VS0,VE86',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving ejs to /Users/emilysanford/.npm/registry.npmjs.org/ejs/.cache.json
+25 silly addNameRange number 2 { name: 'ejs', range: '*', hasData: true }
+26 silly addNameRange versions [ 'ejs',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.4.2',
+26 silly addNameRange     '0.4.3',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.7.1',
+26 silly addNameRange     '0.7.2',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.8.2',
+26 silly addNameRange     '0.8.3',
+26 silly addNameRange     '0.8.4',
+26 silly addNameRange     '0.8.5',
+26 silly addNameRange     '0.8.6',
+26 silly addNameRange     '0.8.8',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '2.0.2',
+26 silly addNameRange     '2.0.3',
+26 silly addNameRange     '2.0.4',
+26 silly addNameRange     '2.0.5',
+26 silly addNameRange     '2.0.6',
+26 silly addNameRange     '2.0.7',
+26 silly addNameRange     '2.0.8',
+26 silly addNameRange     '2.1.1',
+26 silly addNameRange     '2.1.2',
+26 silly addNameRange     '2.1.3',
+26 silly addNameRange     '2.1.4',
+26 silly addNameRange     '2.2.1',
+26 silly addNameRange     '2.2.2',
+26 silly addNameRange     '2.2.3',
+26 silly addNameRange     '2.2.4',
+26 silly addNameRange     '2.3.1',
+26 silly addNameRange     '2.3.2',
+26 silly addNameRange     '2.3.3' ] ]
+27 verbose addNamed ejs@2.3.3
+28 silly addNamed semver.valid 2.3.3
+29 silly addNamed semver.validRange 2.3.3
+30 silly mapToRegistry name ejs
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/ejs
+34 verbose addRemoteTarball https://registry.npmjs.org/ejs/-/ejs-2.3.3.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-2.3.3.tgz',
+35 verbose addRemoteTarball   'a6babb67815d7190694af4ba82fe065e56d5f0e7' ]
+36 info retry fetch attempt 1 at 05:42:44
+37 info attempt registry request try #1 at 05:42:44
+38 http fetch GET https://registry.npmjs.org/ejs/-/ejs-2.3.3.tgz
+39 http fetch 200 https://registry.npmjs.org/ejs/-/ejs-2.3.3.tgz
+40 silly fetchAndShaCheck shasum a6babb67815d7190694af4ba82fe065e56d5f0e7
+41 verbose addTmpTarball /var/folders/7b/xhdmlhx1233gfbx4yfy9fp_w0000gn/T/npm-799-abb388cc/registry.npmjs.org/ejs/-/ejs-2.3.3.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for ejs@2.3.3
+43 silly cache afterAdd ejs@2.3.3
+44 verbose afterAdd /Users/emilysanford/.npm/ejs/2.3.3/package/package.json not in flight; writing
+45 verbose afterAdd /Users/emilysanford/.npm/ejs/2.3.3/package/package.json written
+46 silly install resolved [ { name: 'ejs',
+46 silly install resolved     description: 'Embedded JavaScript templates',
+46 silly install resolved     keywords: [ 'template', 'engine', 'ejs' ],
+46 silly install resolved     version: '2.3.3',
+46 silly install resolved     author:
+46 silly install resolved      { name: 'Matthew Eernisse',
+46 silly install resolved        email: 'mde@fleegix.org',
+46 silly install resolved        url: 'http://fleegix.org' },
+46 silly install resolved     contributors: [ [Object] ],
+46 silly install resolved     license: 'Apache-2.0',
+46 silly install resolved     main: './lib/ejs.js',
+46 silly install resolved     repository: { type: 'git', url: 'git://github.com/mde/ejs.git' },
+46 silly install resolved     bugs: { url: 'https://github.com/mde/ejs/issues' },
+46 silly install resolved     homepage: 'https://github.com/mde/ejs',
+46 silly install resolved     dependencies: {},
+46 silly install resolved     devDependencies:
+46 silly install resolved      { browserify: '^8.0.3',
+46 silly install resolved        istanbul: '~0.3.5',
+46 silly install resolved        jake: '^8.0.0',
+46 silly install resolved        jsdoc: '^3.3.0-beta1',
+46 silly install resolved        'lru-cache': '^2.5.0',
+46 silly install resolved        mocha: '^2.1.0',
+46 silly install resolved        rimraf: '^2.2.8',
+46 silly install resolved        'uglify-js': '^2.4.16' },
+46 silly install resolved     engines: { node: '>=0.10.0' },
+46 silly install resolved     scripts:
+46 silly install resolved      { test: 'mocha',
+46 silly install resolved        coverage: 'istanbul cover node_modules/mocha/bin/_mocha',
+46 silly install resolved        doc: 'rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*',
+46 silly install resolved        devdoc: 'rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*' },
+46 silly install resolved     _id: 'ejs@2.3.3',
+46 silly install resolved     _shasum: 'a6babb67815d7190694af4ba82fe065e56d5f0e7',
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/ejs/-/ejs-2.3.3.tgz',
+46 silly install resolved     _from: 'ejs@*',
+46 silly install resolved     _npmVersion: '2.1.11',
+46 silly install resolved     _nodeVersion: '0.10.33',
+46 silly install resolved     _npmUser: { name: 'mde', email: 'mde@fleegix.org' },
+46 silly install resolved     maintainers: [ [Object], [Object] ],
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: 'a6babb67815d7190694af4ba82fe065e56d5f0e7',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/ejs/-/ejs-2.3.3.tgz' },
+46 silly install resolved     directories: {} } ]
+47 info install ejs@2.3.3 into /Users/emilysanford/Documents/tumblr_mailer
+48 info installOne ejs@2.3.3
+49 verbose installOne of ejs to /Users/emilysanford/Documents/tumblr_mailer not in flight; installing
+50 warn locking Error: EACCES, open '/Users/emilysanford/.npm/_locks/ejs-f447ada3489f7e44.lock'
+50 warn locking     at Error (native)
+50 warn locking  /Users/emilysanford/.npm/_locks/ejs-f447ada3489f7e44.lock failed { [Error: EACCES, open '/Users/emilysanford/.npm/_locks/ejs-f447ada3489f7e44.lock']
+50 warn locking   errno: -13,
+50 warn locking   code: 'EACCES',
+50 warn locking   path: '/Users/emilysanford/.npm/_locks/ejs-f447ada3489f7e44.lock' }
+51 verbose stack Error: Attempt to unlock /Users/emilysanford/Documents/tumblr_mailer/node_modules/ejs, which hasn't been locked
+51 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+51 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1004:5)
+51 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1008:20
+51 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+51 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+51 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+51 verbose stack     at FSReqWrap.oncomplete (fs.js:99:15)
+52 verbose cwd /Users/emilysanford/Documents/tumblr_mailer
+53 error Darwin 14.1.0
+54 error argv "node" "/usr/local/bin/npm" "install" "ejs"
+55 error node v0.12.1
+56 error npm  v2.7.3
+57 error Attempt to unlock /Users/emilysanford/Documents/tumblr_mailer/node_modules/ejs, which hasn't been locked
+58 error If you need help, you may report this error at:
+58 error     <https://github.com/npm/npm/issues>
+59 verbose exit [ 1, true ]
